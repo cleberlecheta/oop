@@ -5,5 +5,5 @@ package com.java.cleber.lecheta.oop.emmaus;
  * so that Json parsers can bind data to it.
  */
 public enum ComputerTypeEnum {
-    Desktop, Notebook, Tablet, Mobile, Watch, TV
+    Notebook, Desktop, PCAllInOne, Notebook2in1, Gaming
 }
