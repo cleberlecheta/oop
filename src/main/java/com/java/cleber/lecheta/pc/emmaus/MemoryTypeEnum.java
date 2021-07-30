@@ -1,5 +1,9 @@
 package com.java.cleber.lecheta.pc.emmaus;
 
+/**
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
+ */
 public enum MemoryTypeEnum {
     FPM("Fast page mode RAM 25Mhz", 1990),
     EDO_RAM("Extended data operations read-only memory 40Mhz", 1994),

@@ -1,5 +1,9 @@
 package com.java.cleber.lecheta.pc.emmaus;
 
+/**
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
+ */
 public enum CpuGenEnum {
     SEVEN("7th Gen"),
     EIGHT("8th Gen"),

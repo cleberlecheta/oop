@@ -1,5 +1,9 @@
 package com.java.cleber.lecheta.pc.emmaus;
 
+/**
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
+ */
 public enum CpuTypeEnum {
     Pentium("Intel x86"),
     CORE_i3("Intel x64"),

@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
+ */
 public class NotebookInspiron14Test {
 
     DellComputer inspironNotebook;

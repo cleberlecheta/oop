@@ -4,8 +4,6 @@ import com.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
 import com.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
 
 /**
- * oop - 07/2021
- *
  * @author Cleber Lecheta
  * https://encontreijesus.com
  */

@@ -4,6 +4,9 @@ import com.java.cleber.lecheta.oop.NotebookInspiron14;
 /**
  * Hello (Dell Computer) world!
  *
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
+ * TODO: no post do projeto colocar o UML das classes, falar sobre javadoc e testes unitários
  */
 public class App 
 {

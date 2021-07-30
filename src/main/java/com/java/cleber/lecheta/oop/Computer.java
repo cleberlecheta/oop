@@ -6,6 +6,9 @@ import com.java.cleber.lecheta.pc.Memory;
 
 /**
  * Interfaces forces classes to have some common methods and/or attributes
+ *
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
  */
 public interface Computer {
 

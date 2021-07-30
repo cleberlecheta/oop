@@ -1,5 +1,5 @@
 #Object-Oriented Programming (OOP)
-Please visit https://encontreijesus.com/java/orientacao-objeto/ for more information.
+Visit https://encontreijesus.com/java/orientacao-objeto/ for more information.
 
 ##Javadoc
 ```shell

@@ -5,6 +5,9 @@ import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
 /**
  * Abstract class work as a default model to heritage, can't be directly instantiate
  * The methods in here must be override in the concrete subclass
+ *
+ * @author Cleber Lecheta
+ * https://encontreijesus.com
  */
 public abstract class DellComputer implements Computer {
 
@@ -18,7 +21,7 @@ public abstract class DellComputer implements Computer {
      * A println were added here to keep track whenever the super constructor is called
      */
     public DellComputer() {
-        System.out.println("I love my computer it makes me feel alright?");
+        System.out.println("I love my computer it does makes me feel alright?");
     }
 
     public DellComputer(ComputerTypeEnum format) {
@@ -41,11 +44,6 @@ public abstract class DellComputer implements Computer {
         }
         this.hasBuiltinScreen = true;
     }
-
-    /**
-     * Define if this computer model is owners favorite type
-     */
-    public abstract Boolean isFavorite();
 
     @Override
     public String toString() {
