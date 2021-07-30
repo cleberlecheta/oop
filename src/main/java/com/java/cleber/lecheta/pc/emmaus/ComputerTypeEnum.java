@@ -1,4 +1,4 @@
-package com.java.cleber.lecheta.oop.emmaus;
+package com.java.cleber.lecheta.pc.emmaus;
 
 /**
  * If using Enum in frameworks @RegisterForReflection

@@ -1,8 +1,9 @@
 #Object-Oriented Programming (OOP)
+Please visit https://encontreijesus.com/java/orientacao-objeto/ for more information.
 
 ##Javadoc
 ```shell
-c33byz@cfHeaven:~/git/java$ mvn javadoc:javadoc
+me@computer:~/git/java$ mvn javadoc:javadoc
 ```
 Output in target/site/apidocs/
 

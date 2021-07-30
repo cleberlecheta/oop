@@ -1,7 +1,7 @@
-package com.java.cleber.lecheta.oop;
+package com.java.cleber.lecheta.pc;
 
-import com.java.cleber.lecheta.oop.emmaus.CpuGenEnum;
-import com.java.cleber.lecheta.oop.emmaus.CpuTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
+import com.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
 
 /**
  * oop - 07/2021

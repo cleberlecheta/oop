@@ -1,6 +1,6 @@
 package com.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.oop.emmaus.ComputerTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
 
 /**
  * Abstract class work as a default model to heritage, can't be directly instantiate
@@ -8,7 +8,7 @@ import com.java.cleber.lecheta.oop.emmaus.ComputerTypeEnum;
  */
 public abstract class DellComputer implements Computer {
 
-    protected String topLine;
+    protected String baseLine;
     protected String modelNumber;
     protected Boolean hasBuiltinScreen;
 
@@ -49,6 +49,6 @@ public abstract class DellComputer implements Computer {
 
     @Override
     public String toString() {
-        return getFormat() + " " + topLine + " " + modelNumber;
+        return getFormat() + " " + baseLine + " " + modelNumber;
     }
 }

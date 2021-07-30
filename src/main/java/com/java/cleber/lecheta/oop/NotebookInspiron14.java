@@ -1,9 +1,11 @@
 package com.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.oop.emmaus.ComputerTypeEnum;
-import com.java.cleber.lecheta.oop.emmaus.CpuGenEnum;
-import com.java.cleber.lecheta.oop.emmaus.CpuTypeEnum;
-import com.java.cleber.lecheta.oop.emmaus.MemoryTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
+import com.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
+import com.java.cleber.lecheta.pc.Cpu;
+import com.java.cleber.lecheta.pc.Memory;
 
 public class NotebookInspiron14 extends DellComputer {
 
@@ -12,7 +14,7 @@ public class NotebookInspiron14 extends DellComputer {
 
     public NotebookInspiron14() {
         super(ComputerTypeEnum.Notebook);
-        this.topLine = "Inspiron";
+        this.baseLine = "Inspiron";
         this.modelNumber = "14 5000";
         this.cpu = new Cpu(CpuTypeEnum.CORE_i7, CpuGenEnum.EIGHT);
         this.memory = new Memory(MemoryTypeEnum.DDR4, 16);

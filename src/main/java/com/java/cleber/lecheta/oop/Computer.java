@@ -1,6 +1,8 @@
 package com.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.oop.emmaus.ComputerTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import com.java.cleber.lecheta.pc.Cpu;
+import com.java.cleber.lecheta.pc.Memory;
 
 /**
  * Interfaces forces classes to have some common methods and/or attributes

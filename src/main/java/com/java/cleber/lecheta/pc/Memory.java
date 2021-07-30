@@ -1,10 +1,8 @@
-package com.java.cleber.lecheta.oop;
+package com.java.cleber.lecheta.pc;
 
-import com.java.cleber.lecheta.oop.emmaus.MemoryTypeEnum;
+import com.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
 
 /**
- * oop - 07/2021
- *
  * @author Cleber Lecheta
  * https://encontreijesus.com
  */

@@ -1,4 +1,4 @@
-package com.java.cleber.lecheta.oop.emmaus;
+package com.java.cleber.lecheta.pc.emmaus;
 
 public enum MemoryTypeEnum {
     FPM("Fast page mode RAM 25Mhz", 1990),
