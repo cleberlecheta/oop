@@ -26,6 +26,7 @@ public abstract class DellComputer implements Computer {
     }
 
     public DellComputer(ComputerTypeEnum format, String baseLine, String modelNumber) {
+        this();
         this.baseLine = baseLine;
         this.modelNumber = modelNumber;
         this.format = format;
