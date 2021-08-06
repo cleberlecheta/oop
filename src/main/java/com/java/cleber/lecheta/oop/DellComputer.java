@@ -10,6 +10,7 @@ import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
  * https://encontreijesus.com
  */
 public abstract class DellComputer implements Computer {
+    //final classes cannot be heritage so we dit not added final to our DellComputer class
 
     protected String baseLine;
     protected String modelNumber;
@@ -24,7 +25,9 @@ public abstract class DellComputer implements Computer {
         System.out.println("I love my computer it does makes me feel alright?");
     }
 
-    public DellComputer(ComputerTypeEnum format) {
+    public DellComputer(ComputerTypeEnum format, String baseLine, String modelNumber) {
+        this.baseLine = baseLine;
+        this.modelNumber = modelNumber;
         this.format = format;
         setHasBuiltinScreen();
     }

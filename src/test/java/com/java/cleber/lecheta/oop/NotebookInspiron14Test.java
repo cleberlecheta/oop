@@ -1,6 +1,7 @@
 package com.java.cleber.lecheta.oop;
 
-import org.junit.jupiter.api.BeforeEach;
+import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,31 +12,68 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class NotebookInspiron14Test {
 
-    DellComputer inspironNotebook;
+    static DellComputer inspironNotebook;
 
-    @BeforeEach
-    public void init() {
-        this.inspironNotebook = new NotebookInspiron14();
+    @BeforeAll
+    static void init() {
+        inspironNotebook = new NotebookInspiron14();
+        System.out.println("TESTED COMPUTER");
+        System.out.println("--------------------------------------");
+    }
+
+    //Tests for: Computer Interface
+
+    @Test
+    void architecture() {
+        assertNotNull(inspironNotebook.architecture,
+                "Computer Interface must have a pre defined architecture");
+        assertEquals(inspironNotebook.architecture, "x86_x64");
+        System.out.println("architecture: " + inspironNotebook.architecture);
     }
 
     @Test
-    void produceRightVendorName() {
+    void getFormat() {
+        ComputerTypeEnum expected = ComputerTypeEnum.Notebook;
+        assertNotNull(inspironNotebook.getFormat(), "Computer Interface demands format to be implemented");
+        assertEquals(expected, inspironNotebook.getFormat(), "this computer must match Notebook format");
+        System.out.println("format: " + inspironNotebook.getFormat().toString());
+    }
+
+    @Test
+    void getCpu() {
+        String expected = "CORE_i7 Intel x64 - 8th Gen";
+        assertNotNull(inspironNotebook.getCpu(), "Computer interface demands to have a cpu");
+        assertEquals(expected, inspironNotebook.getCpu().toString(), "cpu must match model's cpu");
+        System.out.println("cpu: " + inspironNotebook.getCpu().toString());
+    }
+
+    @Test
+    void getMemory() {
+        String expected = "16MB/GB of DDR4 1600 MHz";
+        assertNotNull(inspironNotebook.getMemory(), "Computer interface demands to have memory");
+        assertEquals(expected, inspironNotebook.getMemory().toString());
+        System.out.println("memory: " + inspironNotebook.getMemory().toString());
+    }
+
+    //Tests for: Dell Computer
+
+    @Test
+    void vendorName() {
         String expected = "Notebook Inspiron 14 5000";
+        assertNotNull(inspironNotebook.baseLine,
+                "DellComputer must specify the baseline as part of vendor name");
+        assertNotNull(inspironNotebook.modelNumber,
+                "DellComputer must specify the model number as part of vendor name");
         assertEquals(expected, inspironNotebook.toString(), "description must be exact site vendor model");
+        System.out.println("vendor name: " + inspironNotebook.toString());
     }
 
     @Test
-    void hasCoreComponents() {
-        assertNotNull(inspironNotebook.getCpu(), "must have cpu");
-        assertNotNull(inspironNotebook.getMemory(), "must have memory");
+    void builtinScreen() {
+        assertNotNull(inspironNotebook.hasBuiltinScreen);
+        assertTrue(inspironNotebook.hasBuiltinScreen, "notebook must have a built-in screen");
+        System.out.println("built-in screen: " + inspironNotebook.hasBuiltinScreen);
     }
 
-    @Test
-    void hasConfiguredComponents() {
-        String expectedCpu = "CORE_i7 Intel x64 - 8th Gen";
-        assertEquals(expectedCpu, inspironNotebook.getCpu().toString(), "cpu must match the configuration");
-        String expectedMemory = "16MB/GB of DDR4 1600 MHz";
-        assertEquals(expectedMemory, inspironNotebook.getMemory().toString(), "memory must match the configuration");
-    }
 
 }
