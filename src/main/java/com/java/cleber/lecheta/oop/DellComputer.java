@@ -22,7 +22,7 @@ public abstract class DellComputer implements Computer {
      * A println were added here to keep track whenever the super constructor is called
      */
     public DellComputer() {
-        System.out.println("I love my computer it does makes me feel alright?");
+        //System.out.println("I love my computer it does makes me feel alright?");
     }
 
     public DellComputer(ComputerTypeEnum format, String baseLine, String modelNumber) {
@@ -45,8 +45,9 @@ public abstract class DellComputer implements Computer {
     private void setHasBuiltinScreen() {
         if (this.getFormat() == ComputerTypeEnum.Desktop) {
             this.hasBuiltinScreen = false;
+        } else {
+            this.hasBuiltinScreen = true;
         }
-        this.hasBuiltinScreen = true;
     }
 
     @Override
