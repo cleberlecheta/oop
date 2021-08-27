@@ -1,10 +1,13 @@
 #Object-Oriented Programming (OOP)
-For more information visit: https://encontreijesus.com/java/orientacao-objeto/ 
+For more information visit: 
+https://encontreijesus.com/java/orientacao-objeto/ 
 
 ##Running Tests
 ```shell
 mvn test
 ```
+You can also see check the tests results in GitHub Actions: 
+https://github.com/encontreiJesus/oop/actions
 
 ##Javadoc
 ```shell
