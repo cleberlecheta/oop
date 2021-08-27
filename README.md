@@ -1,9 +1,16 @@
 #Object-Oriented Programming (OOP)
-Visit https://encontreijesus.com/java/orientacao-objeto/ for more information.
+For more information visit: 
+- https://encontreijesus.com/java/orientacao-objeto/ 
+- https://encontreijesus.com/java/object-oriented-programming/
+
+##Running Tests
+```shell
+mvn test
+```
 
 ##Javadoc
 ```shell
-me@computer:~/git/java$ mvn javadoc:javadoc
+mvn javadoc:javadoc
 ```
 Output in target/site/apidocs/
 

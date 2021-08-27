@@ -8,8 +8,9 @@ import learn.java.cleber.lecheta.pc.Cpu;
 import learn.java.cleber.lecheta.pc.Memory;
 
 /**
- * Heritage:
- * This is a subclass of Superclass DellComputer
+ * Dell Notebook Inspiron 14 5000 concrete class implementation
+ *
+ * Heritage: This is a subclass of Superclass DellComputer
  *
  * @author Cleber Lecheta
  * https://encontreijesus.com

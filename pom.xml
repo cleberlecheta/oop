@@ -40,15 +40,6 @@
           <configuration>
             <source>11</source>
           </configuration>
-          <!-- auto generate javadoc on mvn install -->
-          <executions>
-            <execution>
-              <id>attach-javadocs</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
       </plugins>
     </pluginManagement>

@@ -8,6 +8,8 @@ import learn.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
 import learn.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
 
 /**
+ * Dell OptiPlex Micro 3080 PC concrete class implementation
+ *
  * @author Cleber Lecheta
  * https://encontreijesus.com
  */

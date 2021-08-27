@@ -3,8 +3,9 @@ package learn.java.cleber.lecheta.oop;
 import learn.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
 
 /**
- * Abstract class work as a default model to heritage, can't be directly instantiate
- * The methods in here must be override in the concrete subclass
+ * Abstract class that work as a default model to heritage,
+ * can't be directly instantiate (abstract).
+ * The methods in here must be overridden in the concrete subclass.
  *
  * @author Cleber Lecheta
  * https://encontreijesus.com

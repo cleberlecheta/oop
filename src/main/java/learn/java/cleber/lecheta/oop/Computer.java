@@ -5,7 +5,8 @@ import learn.java.cleber.lecheta.pc.Cpu;
 import learn.java.cleber.lecheta.pc.Memory;
 
 /**
- * Interfaces forces classes to have some common methods and/or attributes
+ * Interface to force all computer concrete classes
+ * to have methods and/or attributes common for all PCs.
  *
  * @author Cleber Lecheta
  * https://encontreijesus.com

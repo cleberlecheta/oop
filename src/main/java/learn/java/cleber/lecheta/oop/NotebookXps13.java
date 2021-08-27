@@ -8,6 +8,8 @@ import learn.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
 import learn.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
 
 /**
+ * Dell Notebook XPS 13 concrete class implementation
+ *
  * @author Cleber Lecheta
  * https://encontreijesus.com
  */
