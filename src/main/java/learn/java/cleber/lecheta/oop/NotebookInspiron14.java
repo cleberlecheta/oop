@@ -1,11 +1,11 @@
-package com.java.cleber.lecheta.oop;
+package learn.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
-import com.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
-import com.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
-import com.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
-import com.java.cleber.lecheta.pc.Cpu;
-import com.java.cleber.lecheta.pc.Memory;
+import learn.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
+import learn.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
+import learn.java.cleber.lecheta.pc.Cpu;
+import learn.java.cleber.lecheta.pc.Memory;
 
 /**
  * Heritage:

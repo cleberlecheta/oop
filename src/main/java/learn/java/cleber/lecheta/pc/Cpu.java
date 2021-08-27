@@ -1,7 +1,7 @@
-package com.java.cleber.lecheta.pc;
+package learn.java.cleber.lecheta.pc;
 
-import com.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
-import com.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.CpuGenEnum;
+import learn.java.cleber.lecheta.pc.emmaus.CpuTypeEnum;
 
 /**
  * @author Cleber Lecheta

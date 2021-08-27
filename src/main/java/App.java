@@ -1,7 +1,7 @@
-import com.java.cleber.lecheta.oop.Computer;
-import com.java.cleber.lecheta.oop.DesktopOptiPlexMicro3080;
-import com.java.cleber.lecheta.oop.NotebookInspiron14;
-import com.java.cleber.lecheta.oop.NotebookXps13;
+import learn.java.cleber.lecheta.oop.Computer;
+import learn.java.cleber.lecheta.oop.DesktopOptiPlexMicro3080;
+import learn.java.cleber.lecheta.oop.NotebookInspiron14;
+import learn.java.cleber.lecheta.oop.NotebookXps13;
 
 /**
  * Hello (Dell Computer) world!

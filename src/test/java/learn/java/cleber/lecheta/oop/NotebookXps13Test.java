@@ -1,6 +1,6 @@
-package com.java.cleber.lecheta.oop;
+package learn.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

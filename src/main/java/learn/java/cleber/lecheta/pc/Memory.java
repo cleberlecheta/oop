@@ -1,6 +1,6 @@
-package com.java.cleber.lecheta.pc;
+package learn.java.cleber.lecheta.pc;
 
-import com.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.MemoryTypeEnum;
 
 /**
  * @author Cleber Lecheta

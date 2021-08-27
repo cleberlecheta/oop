@@ -1,6 +1,6 @@
-package com.java.cleber.lecheta.oop;
+package learn.java.cleber.lecheta.oop;
 
-import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
+import learn.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
 
 /**
  * Abstract class work as a default model to heritage, can't be directly instantiate
@@ -10,7 +10,7 @@ import com.java.cleber.lecheta.pc.emmaus.ComputerTypeEnum;
  * https://encontreijesus.com
  */
 public abstract class DellComputer implements Computer {
-    //final classes cannot be heritage so we dit not added final to our DellComputer class
+    //final classes cannot be heritage, so we did not add final to our DellComputer class
 
     protected String baseLine;
     protected String modelNumber;
@@ -36,10 +36,6 @@ public abstract class DellComputer implements Computer {
     @Override
     public ComputerTypeEnum getFormat() {
         return format;
-    }
-
-    public Boolean hasBuiltinScreen() {
-        return hasBuiltinScreen;
     }
 
     private void setHasBuiltinScreen() {

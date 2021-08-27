@@ -1,4 +1,4 @@
-package com.java.cleber.lecheta.pc.emmaus;
+package learn.java.cleber.lecheta.pc.emmaus;
 
 /**
  * @author Cleber Lecheta
