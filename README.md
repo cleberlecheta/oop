@@ -1,7 +1,5 @@
 #Object-Oriented Programming (OOP)
-For more information visit: 
-- https://encontreijesus.com/java/orientacao-objeto/ 
-- https://encontreijesus.com/java/object-oriented-programming/
+For more information visit: https://encontreijesus.com/java/orientacao-objeto/ 
 
 ##Running Tests
 ```shell
