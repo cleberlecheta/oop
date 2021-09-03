@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.java.cleber.lecheta</groupId>
+  <groupId>learn.java.cleber.lecheta</groupId>
   <artifactId>OOP</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>OOP</name>
-  <url>https://encontreiJesus.com</url>
+  <url>https://encontreijesus.com/java/orientacao-objeto/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
